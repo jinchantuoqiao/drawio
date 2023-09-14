@@ -29,7 +29,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-@SuppressWarnings("serial")
+ @SuppressWarnings("serial") 
 abstract public class AbsAuth extends HttpServlet implements AuthComm
 {
 	private static final Logger log = Logger.getLogger(AbsAuth.class.getName());
